@@ -1,0 +1,38 @@
+html {
+  font-size: 10px;
+}
+
+body {
+  font-size: 1.7rem;
+  font-family: 'Manrope', sans-serif;
+  font-weight: 400;
+  line-height: 2.72rem;
+  color: $color-text;
+  @include media-tablet {
+    font-size: 1.5rem;
+    line-height: 2.4rem;
+  }
+  @include media-mobile {
+    font-size: 1.3rem;
+    line-height: 2.08rem;
+  }
+}
+
+h1 {
+  font-weight: 500;
+  font-size: 3rem;
+  line-height: 4.8rem;
+  color: $color-heading;
+  @include media-laptop {
+    font-size: 2.6rem;
+    line-height: 4.16rem;
+  }
+  @include media-tablet {
+    font-size: 2rem;
+    line-height: 3.2rem;
+  }
+  @include media-mobile {
+    font-size: 1.7rem;
+    line-height: 2.72rem;
+  }
+}
